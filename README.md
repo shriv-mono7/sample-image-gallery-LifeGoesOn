@@ -7,11 +7,6 @@ A responsive, cinematic photo gallery inspired by the muted blue-grey, quiet win
 - `style.css` — blue-grey styling, responsive CSS Grid, hover effects, lightbox design
 - `script.js` — category filters and keyboard-accessible photo lightbox
 
-## Run locally
-1. Extract this ZIP.
-2. Open the `kodbud-task-6-life-goes-on-gallery` folder in VS Code.
-3. Open `index.html` and use Live Server, or open the HTML file directly in a browser.
-
 ## Features
 - 3-column desktop gallery, 2-column tablet layout, 1-column mobile layout
 - Filter photos by Skies, Places, and Quiet Things
