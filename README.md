@@ -1,4 +1,4 @@
-# still, the days go on — Image Gallery
+# still, the Life goes on — Image Gallery
 
 A responsive, cinematic photo gallery inspired by the muted blue-grey, quiet winter-light, and reflective mood of BTS's BE era and the theme of life continuing through ordinary days. This is an original fan-inspired aesthetic, not an official BTS website.
 
