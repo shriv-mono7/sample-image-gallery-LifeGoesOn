@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A quiet blue-grey photo gallery about ordinary days, gentle light, and life going on.">
+  <title>still, the days go on — a visual diary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>VISUAL DIARY / VOL. 06</span><span>TAKE IT SLOW. BREATHE. BEGIN AGAIN. ✳</span></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home">still<span>,</span> <i>the days go on</i></a>
+    <nav aria-label="Main navigation">
+      <a href="#gallery">THE GALLERY</a>
+      <a href="#about">A LITTLE NOTE</a>
+    </nav>
+    <a class="header-link" href="#gallery">WANDER A LITTLE ↘</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> A QUIET COLLECTION OF ORDINARY DAYS</p>
+        <h1>Even on the<br>slow days, <em>life goes on.</em></h1>
+        <p class="intro">A little visual diary of cloudy skies, familiar corners, long walks, and the small, ordinary moments that remind us we are still here.</p>
+        <a class="underlined-link" href="#gallery">EXPLORE THE FRAGMENTS <span>↓</span></a>
+        <div class="hero-caption"><span>NOTE NO. 001</span><span>FOR THE DAYS THAT FEEL LIKE NOTHING</span></div>
+      </div>
+      <div class="hero-art">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85" alt="Still mountain lake beneath a soft cloudy sky">
+        <div class="image-wash"></div>
+        <span class="vertical-label">BLUE HOURS / ALL SEASONS</span>
+        <div class="paper-note">the world<br>keeps turning.<br><span>so will we.</span></div>
+        <span class="frame-number">FIG. 01 — SOMEWHERE QUIET</span>
+      </div>
+    </section>
+
+    <div class="quote-strip" aria-label="A gentle reminder">
+      <span>✳</span><p>Not every day has to be extraordinary to be worth remembering.</p><span>✳</span>
+    </div>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE COLLECTION / 001—009</p><h2>Small moments, <em>softly kept.</em></h2></div>
+        <p class="helper">Choose a fragment.<br>Stay for a little while ↗</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter gallery photos">
+        <button type="button" class="filter active" data-filter="all" aria-pressed="true">ALL FRAGMENTS <span>09</span></button>
+        <button type="button" class="filter" data-filter="sky" aria-pressed="false">SKIES <span>03</span></button>
+        <button type="button" class="filter" data-filter="places" aria-pressed="false">PLACES <span>03</span></button>
+        <button type="button" class="filter" data-filter="quiet" aria-pressed="false">QUIET THINGS <span>03</span></button>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="photo-card tall" type="button" data-category="sky" data-src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=90" data-title="Somewhere quiet" data-note="A sky big enough to hold every thought.">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" alt="Quiet lake and mountain silhouettes under a cloudy sky" loading="lazy"><span class="photo-overlay"><small>01 / SKIES</small><strong>somewhere quiet</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="places" data-src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1800&q=90" data-title="The long way home" data-note="Taking the long route just to have a little more time.">
+          <img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=900&q=80" alt="Quiet street framed by trees" loading="lazy"><span class="photo-overlay"><small>02 / PLACES</small><strong>the long way home</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="quiet" data-src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=90" data-title="An afternoon in" data-note="Nothing planned. The afternoon was enough.">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Calm minimalist room with soft natural light" loading="lazy"><span class="photo-overlay"><small>03 / QUIET THINGS</small><strong>an afternoon in</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="sky" data-src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=90" data-title="Blue between the clouds" data-note="Some days, just looking up is a kind of beginning.">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Open natural landscape beneath a wide sky" loading="lazy"><span class="photo-overlay"><small>04 / SKIES</small><strong>blue between the clouds</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card tall" type="button" data-category="places" data-src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1800&q=90" data-title="Where the trees keep quiet" data-note="A slow walk, a deep breath, then one step more.">
+          <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80" alt="Soft light falling through a quiet forest" loading="lazy"><span class="photo-overlay"><small>05 / PLACES</small><strong>where the trees keep quiet</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="quiet" data-src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1800&q=90" data-title="A softer kind of day" data-note="Gentleness is still a way of moving forward.">
+          <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80" alt="Delicate flowers in soft natural light" loading="lazy"><span class="photo-overlay"><small>06 / QUIET THINGS</small><strong>a softer kind of day</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="sky" data-src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=90" data-title="The tide comes back" data-note="Even what leaves knows a way to return.">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Blue sea meeting a pale sky at the horizon" loading="lazy"><span class="photo-overlay"><small>07 / SKIES</small><strong>the tide comes back</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="places" data-src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=90" data-title="Lights in the distance" data-note="The day ends, the windows light up, and life carries on.">
+          <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80" alt="Distant lights beneath a blue evening sky" loading="lazy"><span class="photo-overlay"><small>08 / PLACES</small><strong>lights in the distance</strong><span>↗</span></span>
+        </button>
+        <button class="photo-card" type="button" data-category="quiet" data-src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1800&q=90" data-title="Still looking up" data-note="There is something steady about the stars being there.">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80" alt="Mountain beneath a star-filled night sky" loading="lazy"><span class="photo-overlay"><small>09 / QUIET THINGS</small><strong>still looking up</strong><span>↗</span></span>
+        </button>
+      </div>
+      <p class="gallery-footnote">NINE FRAGMENTS / NO NEED TO RUSH / TAKE WHAT YOU NEED</p>
+    </section>
+
+    <section class="closing-note" id="about">
+      <div class="closing-symbol">☾</div>
+      <p class="eyebrow">A NOTE TO WHOEVER NEEDS IT</p>
+      <h2>Rest if you need to.<br><em>The days will wait.</em></h2>
+      <p>Some days are loud. Some are quiet. Both belong to you. Take your time finding your way back to the light.</p>
+      <span class="signature">— from one ordinary day to another</span>
+    </section>
+  </main>
+
+  <footer><a class="wordmark" href="#home">still<span>,</span> <i>the days go on</i></a><span>BLUE GREY DAYS / SOFT LIGHT / KEEP GOING</span><a href="#home">BACK TO THE TOP ↑</a></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Expanded photo viewer">
+    <button class="lightbox-close" type="button" aria-label="Close photo viewer">✕</button>
+    <button class="lightbox-prev" type="button" aria-label="Previous photo">←</button>
+    <figure><img id="lightbox-image" alt=""><figcaption><span id="lightbox-title"></span><small id="lightbox-note"></small></figcaption></figure>
+    <button class="lightbox-next" type="button" aria-label="Next photo">→</button>
+    <p class="lightbox-counter" id="lightbox-counter"></p>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
